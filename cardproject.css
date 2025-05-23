@@ -1,0 +1,99 @@
+body{
+     background-image: url('pattern-background-desktop.svg');
+     font-family: 'Red Hat Display', sans-serif;
+}
+.fulldiv{
+   display: flex;
+   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   justify-items: center;
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+
+     position: fixed;
+    top: 10%;
+    left: 36%;
+    
+   
+}
+.image{
+    width: 350px;
+    border-start-start-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.order-summary{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: hsl(223, 47%, 23%);
+    padding-right:20px ;
+    
+    
+}
+.peragraph{
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:gray ;
+    margin-top: 0;
+}
+.Annual-plan{
+   color: hsl(223, 47%, 23%);
+   font-weight:600;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+}
+.time{
+    color: gray;
+}
+.middle-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.icon-image{
+    width: 50px;
+}
+.button-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    border-style: none;
+    font-family: Red Hat Display;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px 0px rgb(165, 165, 255);
+    
+}
+.button:hover{
+    background-color: white;
+    color: hsl(245, 75%, 52%);
+    opacity: 8;
+}
+.button:active{
+     opacity: 2;
+     background-color: hsl(245, 75%, 52%);
+    color: white;
+    opacity: 2s;
+}
+.cancel{
+    color: gray;
+}
